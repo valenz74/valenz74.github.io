@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/html.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio : Jose Valenzuela - Desarrollador Web</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>JoseValenzuelaWeb</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="Seleccionar(this)">INICIO</a></li>
+                            <li><a href="#quiensoy" onclick="Seleccionar(this)">QUIEN SOY</a></li>
+                            <li><a href="#servicios" onclick="Seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#skills" onclick="Seleccionar(this)">SKILLS</a></li>
+                            <li><a href="#contacto" onclick="Seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- ICONOS DEL MENU RESPONSIVE -->
+                    <div id="icono-nav" onclick="ResponsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- ICONOS DE REDES SOCIALES -->
+                    <div class="redes">
+                        <a href="https://bit.ly/3zb7c49" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/JoseValenzuela.NET" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/josevalenzuelaweb/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Jose Valenzuela</span> - Diseñador Web, Desarrollador FrontEnd & Mentor</h2>
+                <p class="descripcion">Soy un fanático de la Informática, el Internet y el Diseño Web. Dos cosas me encanta hacer: Enseñar y el Desarrollo Web.</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="quiensoy">
+        <div class="contenedor-foto">
+            <img src="images/fotojose.jpg" alt="Foto Jose Valenzuela">
+        </div>
+        <div class="quiensoy">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Jose Valenzuela</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Tengo más de 20 años de Experiencia en Informática, actualmente laboro remotamente, trabajando con Instituciones de Educación No Formal, así como con Fundaciones y Universidades en el área de Creación de Contenido Digital y de capacitaciones presenciales. Me encanta el Diseño y el Desarrollo Web. Me gusta ir de la mano con el alumno y de igual forma con el cliente que confía en mi trabajo para el Desarrollo Web.</p>
+            <a href="images/cv-jose-valenzuela.pdf" download="">Descargar CV</a>
+        </div>
+    </section>
+    <!-- SECCION SERVICIOS -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code fa-2xl"></i></span>
+                <h4>Desarrollo de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Utilizamos las técnicas más modernes que existen en el mercado actualmete para el Desarrollo de su Sitio Web. Realizamos un trabajo Serio y Confiable.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-wordpress fa-2xl"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Diseñamos Sitios Web bajo la Plataforma de Wordress. Sitios seguros, rápidos y con la garantia y el soporte de WordPress, para que su web se posiciones en los primeros lugares.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js fa-2xl"></i></span>
+                <h4>Desarrollo Web Moderno</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Utilizamos para el desarrollo de su Web, la mejor y ultima tecnología de su página: HTML, CSS y JavaScript</p>
+            </div>
+
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-graduation-cap fa-2xl"></i></i></span>
+                <h4>Capacitacion Desarrollo Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Ofrecemos la mejor capacitación tanto Presencial como Online para que Ud. se convierta en un Excelente Desarrollador Web.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-user-graduate fa-2xl" ></i></span>
+                <h4>Capacitación Diseño Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Ofrecemos un excelente plan de capacitacion a las personas interesadas en aprender Diseño Web bajo la plataforma WordPress.</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-excel fa-2xl" ></i></span>
+                <h4>Capacitación Excel</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Capacitacion</li>
+                    <li>Asesoria</li>
+                </ul>
+                <p>Excel es una herramienta que ninguna persona debe desconocer independientemente a que se dedique. Con nuestra capacitación Ud. tiene la oportunidad de ser un crack en el manejo de esta herramienta.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <div class="contenedor-skills" id="skills">
+        <h3>SKILLS</h3>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Html & CSS</p>
+                <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra">
+                <div id="html" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>JavaScript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>Git</p>
+                <span class="porcentaje">90%</span>
+            </div>
+            <div class="barra">
+                <div id="git" class=""></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p><span class="lista"></span>GitHub</p>
+                <span class="porcentaje">85%</span>
+            </div>
+            <div class="barra">
+                <div id="github" class=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto1-apservicioscontables.jpg" alt="Pagina Web - AP Servicios Contables">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web - AP Servicios Contables</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto2-ralternativos.jpg" alt="Pagina Web - Repuestos Alternativos">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web - Repuestos Alternativos</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto3-fundaciondominic.jpg" alt="Pagina Web - Fundacion Dominic">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web - Fundación Dominic</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto4-hgadministracion.jpg" alt="Pagina Web - HG Administracion y Consultoria">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web - HG Administracion y Consultoria</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto5-capacitacionjava.jpg" alt="Capacitación Java">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Capacitación - JAVA</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto6-capacitacionlinux.jpg" alt="Capacitacion Linux">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Capacitación - Linux</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto7-capacitacionjavascript.jpg" alt="Capacitacion - JavaScript">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Capacitación - JavaScript</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto8-capacitacioncss.jpg" alt="Capacitación - CSS">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Capacitación - CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="images/proyecto9-capacitacionhtml.jpg" alt="Capacitación - HTML">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Capacitación - HTML</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTANOS</h3>
+        <div class="contenedor-form">
+             <!-- <form action="enviar.php" method="post">Funcion de enviar mediante PHP-->
+            <form action="https://formsubmit.co/valenz74@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" name="nombres" placeholder="Digita tus nombres completos" class="input-mitad">
+                    <input type="text" name="mail" placeholder="Digita tus E-Mail" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" name="asunto" placeholder="Digita tu Asunto " class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Dejanos tu mensaje . . ." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los Derechos Resevados - 2022</p>
+        <div class="redes">
+            <a href="https://bit.ly/3zb7c49" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/JoseValenzuela.NET" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/josevalenzuelaweb/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
